@@ -1,0 +1,55 @@
+body {
+  padding: 8px 20px 8px 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  color: darkslategray;
+  text-decoration: underline;
+  background-color: rgb(218, 207, 207);
+  width: fit-content;
+  margin: auto;
+  padding: 8px 20px 8px 20px;
+  border-radius: 50px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+.border {
+  height: 100;
+  width: 100;
+  width: fit-content;
+  padding: 10px;
+}
+
+.border-width {
+  border: 5px;
+}
+
+.border-style {
+  border-style: dotted;
+}
+
+.border-short-hand {
+  border: 5px dotted green;
+}
+
+.border-color {
+  border-width: 2px;
+  border-color: blue;
+}
+
+
+.boxModel {
+  height: 100px;
+  width: 100px;
+  /* border-width: 1px;
+  border-color: red;
+  border-style: solid; */
+  border: 10px dashed pink;
+  margin: 10px 100px;
+  padding: 2px 10px 20px 40px;
+}
+

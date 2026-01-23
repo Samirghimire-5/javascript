@@ -1,0 +1,23 @@
+.flexCW {
+  display: flex;
+  gap: 10px;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: large;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
